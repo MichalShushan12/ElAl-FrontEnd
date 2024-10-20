@@ -1,0 +1,64 @@
+.continents-form {
+    background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 1200px; /* Increased width */
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the main title */
+.continents-form > div {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Flex container for images */
+.continents-images {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to the next line if needed */
+    gap: 20px; /* Spacing between images */
+    justify-content: center; /* Center images horizontally */
+}
+
+/* Style individual continent cards */
+.continents-form > div > div {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    max-width: 200px; /* Limiting width of each card */
+    display: flex;
+    flex-direction: column; /* Arrange text and image vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+/* Style continent names */
+.continents-form h2 {
+    font-size: 18px; /* Adjust font size */
+    margin: 10px 0; /* Margin for spacing */
+    word-wrap: break-word; /* Ensure long words break */
+    overflow-wrap: break-word; /* Ensure long words break */
+    text-align: center; /* Center align text */
+}
+
+/* Style images */
+.continents-form img {
+    width: 100%; /* Ensure images fill the container */
+    height: auto;
+    border-radius: 4px;
+    transition: transform 0.3s;
+}
+
+.continents-form img:hover {
+    transform: scale(1.1);
+}
+
+
+

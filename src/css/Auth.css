@@ -1,0 +1,163 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+*/
+/*
+.signup-signin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .signup-signin-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .form-container {
+      width: 90%;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .signup-signin-container {
+      overflow: scroll;
+      width: 100%;
+      height: 70vh;
+      margin-bottom: 100px;
+    }
+  }
+
+  
+  .form-container main#main .signup-signin-container {
+    display: none;
+  }
+    */
+
+      
+      .auth-form {
+        position: relative;
+        background-color: 'white' ;
+        color: #fff;
+        padding: 10px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100;
+        height:max-content;
+        gap: 5px;
+      }
+      
+ 
+      
+      .auth-form input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      
+      .auth-form button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      .auth-form button:hover {
+        background-color: #0056b3;
+}
+
+@media (min-width: 10025px) and (max-width: 10000px) {
+        .auth-form {
+          overflow: scroll;
+          width: 100%;
+          height: 100vh;
+          margin-bottom: 100px;
+}
+}
+.pic{
+    width: 500px; ;
+    height: 500px;
+}
+        

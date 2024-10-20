@@ -1,0 +1,16 @@
+.high-contrast {
+  background-color: #000;
+  color: #fff;
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
+
+.reduced-motion {
+  animation: none !important;
+}
+
+.text-size {
+  font-size: 1.5em;
+}

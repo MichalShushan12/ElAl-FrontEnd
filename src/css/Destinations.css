@@ -1,0 +1,123 @@
+.destinations-form {
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 60px;
+  }
+  
+  .schedule-section {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .schedule-section h3 {
+    text-align: center; 
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the DateTimePicker */
+  .date-time-picker {
+    width: 100%;
+    max-width: 600px; /* Ensure it fits within the container */
+    margin: 0 auto; /* Center horizontally */
+  }
+  
+ 
+
+  /* Style for the select dropdown */
+  .destination-select {
+    width: 100%;
+    max-width: 300px; /* Adjust as needed */
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    margin-bottom: 20px;
+  }
+  
+  /* Container for destinations with flexible layout */
+  .destinations-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Style for each destination item */
+  .destination-item {
+    flex: 1 1 calc(25% - 20px); /* 4 items per row with spacing */
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  /* Ensure images fit their container */
+  .destination-item {
+    flex: 1 1 calc(25% - 20px); /* 4 items per row with spacing */
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden; /* Hide anything that goes outside the container */
+  }
+  
+  /* Ensure images fit their container */
+  .destination-item img {
+    width: 100%;
+    height: 250px; /* Fixed height for consistent image sizes */
+    object-fit: cover; /* Ensures images are fully visible */
+    border-radius: 10px;
+  }
+  
+  /* Hover effect for showing flight details */
+  .destination-item:hover .destination-info {
+    opacity: 1; /* Make the details visible on hover */
+  }
+  
+  /* Style for the information overlay on each destination */
+  .destination-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    color: #333;
+    box-sizing: border-box;
+    opacity: 0; /* Hide by default */
+    transition: opacity 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  /* Ensure quantity controls are properly styled */
+  .quantity-controls {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 4px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-controls button {
+    margin: 0 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .quantity-controls button:hover {
+    background-color: #0056b3;
+  }
+  
+  .quantity-controls span {
+    font-size: 1rem;
+  }
